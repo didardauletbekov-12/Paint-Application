@@ -1,9 +1,3 @@
-"""
-TSIS 2 — Extended Paint Application
-Tools: Pencil, Line, Rectangle, Square, Circle, Right Triangle,
-       Equilateral Triangle, Rhombus, Eraser, Flood Fill, Text
-Features: 3 brush sizes, Ctrl+S timestamped PNG save, live previews
-"""
 
 import pygame
 import sys
