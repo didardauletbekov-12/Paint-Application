@@ -8,7 +8,7 @@ from tools import (
     EraserTool, FillTool, TextTool, BRUSH_SIZES,
 )
 
-# ─── Constants ────────────────────────────────────────────────────────────────
+#  Constants 
 WINDOW_W, WINDOW_H = 1200, 750
 TOOLBAR_W = 180
 CANVAS_X = TOOLBAR_W
@@ -48,7 +48,7 @@ TOOLS = [
 ]
 
 
-# ─── UI Helpers ───────────────────────────────────────────────────────────────
+#  UI Helpers 
 def draw_rounded_rect(surf, color, rect, radius=8, border=0, border_color=None):
     pygame.draw.rect(surf, color, rect, border_radius=radius)
     if border and border_color:
@@ -66,7 +66,7 @@ def label(surf, font, text, pos, color=TEXT_COLOR, center=False):
     surf.blit(s, r)
 
 
-# ─── Main ─────────────────────────────────────────────────────────────────────
+#  Main
 def main():
     pygame.init()
     screen = pygame.display.set_mode((WINDOW_W, WINDOW_H))

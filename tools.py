@@ -1,11 +1,11 @@
 import pygame
 import collections
 
-# ─── Brush Sizes ──────────────────────────────────────────────────────────────
+#  Brush Sizes 
 BRUSH_SIZES = {1: 2, 2: 5, 3: 10}
 
 
-# ─── Pencil Tool ──────────────────────────────────────────────────────────────
+#  Pencil Tool 
 class PencilTool:
     def __init__(self):
         self.last_pos = None
